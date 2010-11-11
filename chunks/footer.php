@@ -13,15 +13,15 @@
 
 
 <?php
-	/*include('style/booster/booster/booster_inc.php');
+	include('style/booster/booster_inc.php');
 	$booster = new Booster();
 	$booster->document_root = '/home/peter/public_html/'; 
 	$booster->base_offset = '/~peter/';
 	$booster->markuptype = 'HTML';
 	$booster->js_source = array(
-		'../../../script/stuff.js'
+		'../../../script/booster.js'
 	);
-	echo $booster->js_markup();*/
+	echo $booster->js_markup();
 ?>
 
 
