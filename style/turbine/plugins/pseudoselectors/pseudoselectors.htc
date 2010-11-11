@@ -1,0 +1,33 @@
+<attach event="ondocumentready" handler="applyClasses" />
+<script>
+
+
+/*
+ * applyClasses
+ * Walk the DOM and add our classes as we go
+ * 
+ * @return void
+ */
+function applyClasses(){
+	// Add the class for :root
+	var root = document.getElementsByTagName('body')[0]
+	root.setAttribute('className', 'pseudoselectorroot')
+	// Walk the DOM and apply the other Classes
+	applyClassesRecursive(root)
+}
+
+
+/*
+ * applyClassesRecursive
+ * Walk the DOM and add our classes as we go
+ * 
+ * @param node The DOM node to walk through
+ * @return void
+ */
+function applyClassesRecursive(node){
+
+}
+
+
+
+</script>
